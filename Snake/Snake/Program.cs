@@ -21,6 +21,10 @@ namespace Snake
             numList.Add(1);
             numList.Add(2);
 
+            int x = numList[0];
+            int y = numList[1];
+            int z = numList[2];
+
             foreach (int i in numList)
             {
                 Console.WriteLine(i);
